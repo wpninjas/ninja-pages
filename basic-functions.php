@@ -156,3 +156,29 @@ function ninja_pages_options_validate($input) {
 
 	return $valid;
 }
+
+add_filter( 'pre_get_posts', 'ninja_pages_add_pages_to_category' );
+function ninja_pages_add_pages_to_category( $query ) {
+	if( is_category() ) {
+		$options = get_option('ninja_pages_options');
+		if( isset( $options['add_cats'] ) ) :
+			$post_type = get_query_var( 'post_type' );
+			$post_type[] = 'page';
+			$query->set('post_type',$post_type);
+		endif;
+	}
+	return $query;
+}
+
+add_filter( 'pre_get_posts', 'ninja_pages_add_pages_to_tag' );
+function ninja_pages_add_pages_to_tag( $query ) {
+	if( is_tag() ) {
+		$options = get_option('ninja_pages_options');
+		if( isset( $options['add_tags'] ) ) :
+			$post_type = get_query_var( 'post_type' );
+			$post_type[] = 'page';
+			$query->set('post_type',$post_type);
+		endif;
+	}
+	return $query;
+}

@@ -4,7 +4,7 @@ Donate link: http://wpninjas.net
 Tags: page, pages, category, categories, tag, tags
 Requires at least: 3.1
 Tested up to: 4.5.1
-Stable tag: 1.3.3
+Stable tag: 1.4
 
 A simple plugin that allows the user to assign post features to pages, including categories, tags, and excerpts.
 
@@ -60,10 +60,13 @@ Below is the basic markup for the child pages listing. Using basic CSS you can s
 
 == Upgrade Notice ==
 
-= 1.3.3 (2 May 2016) =
-* Updating WordPress compatability version number along with cleaning up some old image files. Also updated the name if the plugin to be simply Ninja Pages.
+= 1.4 (3 May 2016) =
+* Fixed in issue where pages were not appearing in the categories or tags archives when the appropriate options were enabled.
 
 == Changelog ==
+
+= 1.4 (3 May 2016) =
+* Fixed in issue where pages were not appearing in the categories or tags archives when the appropriate options were enabled.
 
 = 1.3.3 (2 May 2016) =
 * Updating WordPress compatability version number along with cleaning up some old image files. Also updated the name if the plugin to be simply Ninja Pages.
