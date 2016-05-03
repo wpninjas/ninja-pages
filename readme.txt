@@ -1,4 +1,4 @@
-=== Ninja Page Categories and Tags ===
+=== Ninja Pages ===
 Contributors: wpninjasllc, jameslaws, kstover
 Donate link: http://wpninjas.net
 Tags: page, pages, category, categories, tag, tags
@@ -58,6 +58,10 @@ Below is the basic markup for the child pages listing. Using basic CSS you can s
 
 	</div>
 
+== Upgrade Notice ==
+
+= 1.3.3 (2 May 2016) =
+* Updating WordPress compatability version number along with cleaning up some old image files. Also updated the name if the plugin to be simply Ninja Pages.
 
 == Changelog ==
 
