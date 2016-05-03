@@ -102,8 +102,8 @@ function ninja_pages_archives_include_pages( $query ) {
 			} else {
 				$post_type = get_query_var( 'post_type' );
 
-				if ( !empty( $post_type ) ) {
-					$post_type = $post_type;
+				if ( ! empty( $post_type ) ) {
+					$post_type[] = 'page';
 				} else {
 					$post_type = array('post', 'page');
 				}
@@ -157,7 +157,7 @@ function ninja_pages_options_validate($input) {
 	return $valid;
 }
 
-add_filter( 'pre_get_posts', 'ninja_pages_add_pages_to_category' );
+//add_filter( 'pre_get_posts', 'ninja_pages_add_pages_to_category' );
 function ninja_pages_add_pages_to_category( $query ) {
 	if( is_category() ) {
 		$options = get_option('ninja_pages_options');
@@ -170,7 +170,7 @@ function ninja_pages_add_pages_to_category( $query ) {
 	return $query;
 }
 
-add_filter( 'pre_get_posts', 'ninja_pages_add_pages_to_tag' );
+//add_filter( 'pre_get_posts', 'ninja_pages_add_pages_to_tag' );
 function ninja_pages_add_pages_to_tag( $query ) {
 	if( is_tag() ) {
 		$options = get_option('ninja_pages_options');

@@ -4,7 +4,7 @@ Donate link: http://wpninjas.net
 Tags: page, pages, category, categories, tag, tags
 Requires at least: 3.1
 Tested up to: 4.5.1
-Stable tag: 1.4
+Stable tag: 1.4.1
 
 A simple plugin that allows the user to assign post features to pages, including categories, tags, and excerpts.
 
@@ -60,10 +60,13 @@ Below is the basic markup for the child pages listing. Using basic CSS you can s
 
 == Upgrade Notice ==
 
-= 1.4 (3 May 2016) =
-* Fixed in issue where pages were not appearing in the categories or tags archives when the appropriate options were enabled.
+= 1.4.1 (3 May 2016) =
+* Removed an extra call for adding to the archives pages when the appropriate option was selected.
 
 == Changelog ==
+
+= 1.4.1 (3 May 2016) =
+* Removed an extra call for adding to the archives pages when the appropriate option was selected.
 
 = 1.4 (3 May 2016) =
 * Fixed in issue where pages were not appearing in the categories or tags archives when the appropriate options were enabled.
