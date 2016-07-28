@@ -93,7 +93,7 @@ function ninja_pages_archives_include_pages( $query ) {
 
 	$options = get_option('ninja_pages_options');
 	//Don't break admin or preview pages.
-	if ( isset( $options['add_archives'] ) && $query->is_main_query() ) :
+	if ( isset( $options['add_archives'] ) && $query->is_main_query() && !is_admin() ) :
 
 		if( is_category() || is_tag() ) :
 
