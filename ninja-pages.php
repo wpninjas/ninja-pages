@@ -3,7 +3,7 @@
 Plugin Name: Ninja Pages
 Plugin URI: http://plugins.wpninjas.net/?p=72
 Description: A simple plugin that allows the user to assign categories and tags to pages.
-Version: 1.4.1
+Version: 1.4.2
 Author: The WP Ninjas
 Author URI: http://www.wpninjas.net
 */

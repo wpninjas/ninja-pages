@@ -3,8 +3,8 @@ Contributors: wpninjasllc, jameslaws, kstover
 Donate link: http://wpninjas.net
 Tags: page, pages, category, categories, tag, tags
 Requires at least: 3.1
-Tested up to: 4.5.1
-Stable tag: 1.4.1
+Tested up to: 4.6
+Stable tag: 1.4.2
 
 A simple plugin that allows the user to assign post features to pages, including categories, tags, and excerpts.
 
