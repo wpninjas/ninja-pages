@@ -60,13 +60,10 @@ Below is the basic markup for the child pages listing. Using basic CSS you can s
 
 == Upgrade Notice ==
 
-= 1.4.2 (28 July 2016) =
-* Fixed an issue where Ninja Pages would throw an error when filtering posts table by category.
+= 1.4.1 (3 May 2016) =
+* Removed an extra call for adding to the archives pages when the appropriate option was selected.
 
 == Changelog ==
-
-= 1.4.2 (28 July 2016) =
-* Fixed an issue where Ninja Pages would throw an error when filtering posts table by category.
 
 = 1.4.1 (3 May 2016) =
 * Removed an extra call for adding to the archives pages when the appropriate option was selected.
